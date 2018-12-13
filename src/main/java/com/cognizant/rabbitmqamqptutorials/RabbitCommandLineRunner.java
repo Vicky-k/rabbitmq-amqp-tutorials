@@ -35,6 +35,6 @@ public class RabbitCommandLineRunner implements CommandLineRunner {
     public void run(final String... args) throws Exception {
         System.out.println("Ready ... running for " + duration + "ms");
         Thread.sleep(duration);
-        context.close();
+        //context.close();
     }
 }
